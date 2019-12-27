@@ -1,0 +1,253 @@
+body {
+  /* background-image: url("fotolar/cloth-569222.jpg");*/
+  background-color: #334F70;
+   margin-top: 20px;
+
+}
+#container{
+ width: auto;
+ height: auto;
+ 
+}
+#logo{
+ padding-left: 30px;
+ 
+
+}
+#header{
+ width: 1255px;
+ height: 150px;
+ margin-left: 50px;
+ margin-top: 20px;
+ background-color: #F8B195;
+ border-radius:  10px;
+}
+h1{
+ margin-left: 750px;
+ margin-bottom: 950px;
+ margin-top: -100px;
+ margin-left:auto;
+ margin-right:auto;
+ width:70%;  
+ color: #334F70;
+ font-family: 'Hammersmith One', sans-serif;
+ font-size: 40px;
+ text-align: center;
+}
+#ustmenu li{
+   overflow: hidden;
+    list-style-type: none;
+    background-color: #C06C84;
+    padding: 0px;
+    width: 300px;
+    height: 50px;
+    margin: 10px;
+    font-size: 20px;
+    font-family: calibri,arial,verdana;
+    line-height: 50px;
+    float: left;
+    border-radius:  10px;
+  }
+  
+  #ustmenu a{
+    padding-top: 5px;
+    text-decoration: none;
+    color: #f7e9e9;
+    display: block; /*a etiketinin etki alanını nesne boyutlarına eşitler*/  
+    text-align: center;
+    transition: 1s; 
+    
+  }
+  
+   #ustmenu span{
+    display: block;
+    margin-top:-60px;
+  }
+  
+  #ustmenu a:hover{
+    color: #F8B195;
+    margin-top:55px;
+    background-color: #355C7D;
+  }  
+
+  #ortasol a{
+   margin: 10px;/*boşlukların aralarıkları*/
+   margin-left: 50px;/*soldan 50cm içerde konumlandırır*/
+
+  }
+
+  #ortasol ul{
+   padding: 0;
+   margin: 0;
+   list-style-type: none;
+   width: 200px;
+   display: inline-block;
+  }
+  
+  #ortasol ul li a{  
+   width: 235px;
+   height: 5px;
+   padding: 30px;
+   display: block;
+   text-decoration: none;
+   background-color: #C06C84;
+   color: #f7e9e9;
+   font-size: 18px;
+   border-left:5px solid #334F70;
+   border-radius:  10px;
+   
+}
+
+#ortasol ul li a.active {
+   background-color: #F67280;
+   border-left:5px solid #C06C84;
+}
+#ortasol ul li a:hover:not(.active) {
+   background-color: #F67280;
+   border-left:5px solid #C06C84;
+   color: #FFF;
+}
+
+#ortasag{
+   background-color: #F67280;
+   color: #FFF;
+   display: inline-block;
+   height: auto;
+   float: right;
+   margin-top: -375px;
+   margin-left:auto;
+   margin-right: 25px;
+   width: 70%;
+   border-radius:  10px;
+ 
+  }
+  #footer{
+   width: 1268px;
+   height: 100px;
+   background-color: #FFF;
+   margin-left: 50px;
+   
+  }
+  h4{
+    size: 25px;
+    color: #334F70;
+  }
+  h2{
+   text-align: center;
+    color: #f7e9e9;
+  }
+  #sltFoto,#cmlFoto,#smlFoto{
+    margin-left: 55px;
+  }
+  #sltHrt,#cmlHrt,#smlHrt{
+    margin-left: 55px;
+  }
+  
+  .tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .sultan{
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+
+  .tab1 {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab1 button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab1 button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab1 button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .camlica{
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+
+  
+  .tab2 {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab2 button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab2 button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab2 button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .süleymaniye{
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }

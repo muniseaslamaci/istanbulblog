@@ -1,0 +1,117 @@
+body {
+    /* background-image: url("fotolar/cloth-569222.jpg");*/
+    background-color: #334F70;
+     margin-top: 20px;
+  
+ }
+ #container{
+   width: auto;
+   height: auto;
+   
+ }
+ #logo{
+   padding-left: 30px;
+   
+ 
+ }
+ 
+ #header{
+   width: 1255px;
+   height: 150px;
+   margin-left: -70px;
+   margin-top: 20px;
+   background-color: #F8B195;
+   border-radius:  10px;
+ }
+ h1{
+    margin-left: 750px;
+    margin-bottom: 950px;
+    margin-top: -100px;
+    margin-left:auto;
+    margin-right:auto;
+    width:70%;  
+    color: #334F70;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 40px;
+    text-align: center;
+  }
+  #ustmenu li{
+      overflow: hidden;
+       list-style-type: none;
+       background-color: #C06C84;
+       padding: 0px;
+       width: 300px;
+       height: 50px;
+       margin: 10px;
+       font-size: 20px;
+       font-family: calibri,arial,verdana;
+       line-height: 50px;
+       float: left;
+       border-radius:  10px;
+     }
+     
+     #ustmenu a{
+       padding-top: 5px;
+       text-decoration: none;
+       color: #f7e9e9;
+       display: block; /*a etiketinin etki alanını nesne boyutlarına eşitler*/  
+       text-align: center;
+       transition: 1s; 
+       
+     }
+     
+      #ustmenu span{
+       display: block;
+       margin-top:-60px;
+     }
+     
+     #ustmenu a:hover{
+       color: #F8B195;
+       margin-top:55px;
+       background-color: #355C7D;
+     }  
+  
+     #ortasol a{
+      margin: 10px;/*boşlukların aralarıkları*/
+      margin-left: 50px;/*soldan 50cm içerde konumlandırır*/
+  
+     }
+  
+     #ortasol ul{
+      padding: 0;
+      margin: 0;
+      list-style-type: none;
+      width: 200px;
+      display: inline-block;
+     }
+     
+     #ortasol ul li a{  
+      width: 300px;
+      height: 5px;
+      padding: 30px;
+      display: block;
+      text-decoration: none;
+      background-color: #C06C84;
+      color: #f7e9e9;
+      font-size: 18px;
+      border-left:5px solid #334F70;
+      border-radius:  10px;
+      
+  }
+  
+  #ortasol ul li a.active {
+      background-color: #F67280;
+      border-left:5px solid #C06C84;
+  }
+  #ortasol ul li a:hover:not(.active) {
+      background-color: #F67280;
+      border-left:5px solid #C06C84;
+      color: #FFF;
+  }
+
+  #iletisim{
+      width: 930px;
+      margin-left: 370px;
+      margin-top: -400px;
+      background-color: #F67280;
+  } 

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="camiler.css">
+    <script src="camiler.js"></script>
+    <title>Document</title>
+</head>
+<body>
+        <div id="container">
+          <div id="header">
+            <img id="logo" src="fotolar/logo.png" width="150px" height="150px">
+            <h1>İST-PROMOTION</h1></div>
+            <div id="ustmenu">
+                <ul>
+                    <li><a href="anasayfa.html"><span>ANASAYFA</span>ANASAYFA</a></li>
+                    <li><a href="gorsellerimiz.html"><span>GÖRSELLERİMİZ</span>GÖRSELLERİMİZ</a></li>
+                    <li><a href="hakkimizda.html"><span>HAKKIMIZDA</span>HAKKIMIZDA</a></li>
+                    <li><a href="iletisim.html"><span>İLETİŞİM</span>İLETİŞİM</a></li>
+               </ul>
+            </div>
+            
+            <div id="ortasol">
+                <ul>
+                    <li><a href="camiler.html"><span>CAMİLER</span></a></li>
+                    <li><a href="tarihieser.html"><span>TARİHİ ESER</span></a></li>
+                    <li><a href="yemeicme.html"><span>YEME - İÇME</span></a></li>
+                    <li><a href="oteller.html"><span>OTELLER</span></a></li>
+                    <li><a href="aktiviteler.html"><span>AKTİVİTELER</span></a></li>
+                </ul>
+            </div>
+            <div id="ortasag">
+                <h2><b>İSTANBUL' DA GEZİLECEK CAMİLER</b></h2>
+
+                <div class="tab">
+                    <button class="slt" onclick="openCity(event, 'SULTANAHMET CAMİİ')" id="sltOpen">SULTANAHMET CAMİİ</button>
+                    <button class="slt" onclick="openCity(event, 'sltFoto')">FOTOĞRAF</button>
+                    <button class="alt" onclick="openCity(event, 'sltHrt')">HARİTA</button>
+                  </div>
+                  
+                  <div id="SULTANAHMET CAMİİ" class="tabcontent1">
+                    <h3>SULTANAHMET CAMİİ</h3>
+                    <p>Osmanlı İmparatorluğu döneminde İstanbul’a armağan edilmiş en önemli tarihi yapılardan biridir. Sultanahmet meydanı da ismini Camii’den almıştır.
+                        Camii, Osmanlı Sultanı I. Ahmet tarafından 1609 – 1616 yılları arasında yaptırılmıştır. Mimar Sinan‘ın eseri olmadığı halde Sinan’dan bir çok izler taşımaktadır.
+                        Sosyal ve Kültürel bir çok özelliğe sahip olan Camii’de; kapalı çarşı, Türk hamamı, Aşevi, Hastahane, Okul, Kervansaray ve Sultan I. Ahmed’in türbesi bulunuyor.
+                </p>
+                  </div>
+                  
+                  <div id="sltFoto" class="sultan">
+                    <img id="sultanahmetfoto" src="fotolar/sultan-ahmet-camii.jpg">
+                </div>
+                  
+                  <div id="sltHrt" class="sultan">
+                    <iframe id="sultanahmethrt" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.906959788142!2d28.9746251146868!3d41.00540957930104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab9bd6570f4e1%3A0xe52df7368a157ca4!2sSultan%20Ahmet%20Camii!5e0!3m2!1str!2str!4v1576403315546!5m2!1str!2str" width="800" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+
+                <div class="tab1">
+                    <button class="cml" onclick="openCity2(event, 'ÇAMLICA CAMİİ')" id="cmlOpen">ÇAMLICA CAMİİ</button>
+                    <button class="cml" onclick="openCity2(event, 'cmlFoto')">FOTOĞRAF</button>
+                    <button class="cml" onclick="openCity2(event, 'cmlHrt')">HARİTA</button>
+                  </div>
+                  
+                  <div id="ÇAMLICA CAMİİ" class="tabcontent2">
+                    <h3>ÇAMLICA CAMİİ</h3>
+                    <p>Cumhuriyet tarihinin en büyük camisi olarak nitelendirilen Çamlıca Camisi’nin 2013 yılında temelleri atıldı. Mimarisinde Osmanlı ve Selçuklu çizgileri taşıyan Çamlıca Cami’si 63.000 kişilik kapasiteye sahip. Kubbesi 34 metreye kadar uzanıyor.
+                        İmanın şartını temsilen 6 minareli inşa edilen Çamlıca Camisi’nin üç şerefeli 4 minaresi Malazgirt Zaferi’ne ithafen 107,1 metre, iki şerefeli 2 minaresi ise 90 metre yüksekliğinde yapıldı.
+                </p>
+                  </div>
+                  
+                  <div id="cmlFoto" class="camlica">
+                    <img id="camlicafoto" src="fotolar/istanbul-da-gezilecek-yerler-camlica-camii.jpg">               
+                </div>
+                  
+                  <div id="cmlHrt" class="camlica">
+                    <iframe id="camlicahrt" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3009.5962363553153!2d29.06833681468793!3d41.03408867929809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cac8480935b6a5%3A0xc7b65842c1e13159!2zw4dhbWzEsWNhIENhbWlp!5e0!3m2!1str!2str!4v1576404141095!5m2!1str!2str" width="800" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+
+                <div class="tab2">
+                    <button class="slm" onclick="openCity3(event, 'SÜLEYMANİYE CAMİİ')" id="smlOpen">SÜLEYMANİYE CAMİİ</button>
+                    <button class="slm" onclick="openCity3(event, 'smlFoto')">FOTOĞRAF</button>
+                    <button class="slm" onclick="openCity3(event, 'smlHrt')">HARİTA</button>
+                  </div>
+                  
+                  <div id="SÜLEYMANİYE CAMİİ" class="tabcontent3">
+                    <h3>SÜLEYMANİYE CAMİİ</h3>
+                    <p>Mimar Sinan’ın kalfalık eserim dediği Süleymaniye camii, Osmanlının en görkemli eserleri arasındadır. 1551 yılında başlayıp 1557 yılında yapımı tamamlanan Süleymani Camii, 500 yılda büyük depremler atlatsa da en ufak hasar almamıştır.
+                        Her ayrıntısını özenle dizayn eden Mimar Sinan, Süleymaniye Camii’sini “kıyamete kadar yıkılmayacak olan camii” olarak nitelendiriliyor.
+                </p>
+                  </div>
+                  
+                  <div id="smlFoto" class="süleymaniye">
+                    <img id="suleymaniyefoto" src="fotolar/istanbul-gezilecek-yerler-suleymaniye-camii.jpg"> 
+                </div>
+                  
+                  <div id="smlHrt" class="süleymaniye">
+                    <iframe id="suleymaniyehrt" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.414921934466!2d28.961964614687194!3d41.01617747929994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab98d3ac01031%3A0x8accf5042157cfed!2sS%C3%BCleymaniye%20Camii!5e0!3m2!1str!2str!4v1576404545812!5m2!1str!2str" width="800" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>                
+                </div>
+                
+      <!-- <div id="footer">
+            <h1>İST-PUBLİCİTY</h1>
+        </div>--> 
+    </div>
+</body>
+</html>

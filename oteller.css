@@ -1,0 +1,273 @@
+body {
+    /* background-image: url("fotolar/cloth-569222.jpg");*/
+    background-color: #334F70;
+     margin-top: 20px;
+  
+  }
+  #container{
+   width: auto;
+   height: auto;
+   
+  }
+  #logo{
+   padding-left: 30px;
+   
+  
+  }
+  #header{
+   width: 1255px;
+   height: 150px;
+   margin-left: 50px;
+   margin-top: 20px;
+   background-color: #F8B195;
+   border-radius:  10px;
+  }
+  h1{
+   margin-left: 750px;
+   margin-bottom: 950px;
+   margin-top: -100px;
+   margin-left:auto;
+   margin-right:auto;
+   width:70%;  
+   color: #334F70;
+   font-family: 'Hammersmith One', sans-serif;
+   font-size: 40px;
+   text-align: center;
+  }
+  #ustmenu li{
+     overflow: hidden;
+      list-style-type: none;
+      background-color: #C06C84;
+      padding: 0px;
+      width: 300px;
+      height: 50px;
+      margin: 10px;
+      font-size: 20px;
+      font-family: calibri,arial,verdana;
+      line-height: 50px;
+      float: left;
+      border-radius:  10px;
+    }
+    
+    #ustmenu a{
+      padding-top: 5px;
+      text-decoration: none;
+      color: #f7e9e9;
+      display: block; /*a etiketinin etki alanını nesne boyutlarına eşitler*/  
+      text-align: center;
+      transition: 1s; 
+      
+    }
+    
+     #ustmenu span{
+      display: block;
+      margin-top:-60px;
+    }
+    
+    #ustmenu a:hover{
+      color: #F8B195;
+      margin-top:55px;
+      background-color: #355C7D;
+    }  
+  
+    #ortasol a{
+     margin: 10px;/*boşlukların aralarıkları*/
+     margin-left: 50px;/*soldan 50cm içerde konumlandırır*/
+  
+    }
+  
+    #ortasol ul{
+     padding: 0;
+     margin: 0;
+     list-style-type: none;
+     width: 200px;
+     display: inline-block;
+    }
+    
+    #ortasol ul li a{  
+     width: 235px;
+     height: 5px;
+     padding: 30px;
+     display: block;
+     text-decoration: none;
+     background-color: #C06C84;
+     color: #f7e9e9;
+     font-size: 18px;
+     border-left:5px solid #334F70;
+     border-radius:  10px;
+     
+  }
+  
+  #ortasol ul li a.active {
+     background-color: #F67280;
+     border-left:5px solid #C06C84;
+  }
+  #ortasol ul li a:hover:not(.active) {
+     background-color: #F67280;
+     border-left:5px solid #C06C84;
+     color: #FFF;
+  }
+  
+  #ortasag{
+     background-color: #F67280;
+     color: #FFF;
+     display: inline-block;
+     height: auto;
+     float: right;
+     margin-top: -375px;
+     margin-left:auto;
+     margin-right: 25px;
+     width: 70%;
+     border-radius:  10px;
+   
+    }
+    #footer{
+     width: 1268px;
+     height: 100px;
+     background-color: #FFF;
+     margin-left: 50px;
+     
+    }
+    h4{
+      size: 25px;
+      color: #334F70;
+    }
+    #otel1{
+        width: 880px;
+        height: 250px;
+        border: 1px rgb(180, 180, 180) solid;
+        margin-left: 25px;
+        margin-bottom: 15px;
+        
+    }
+    #otel1:hover{
+        box-shadow: 0 0 6px 2px rgb(228, 228, 228);
+    }
+    #otel1 h2{
+        margin-left: 320px;
+        margin-top: -250px;
+        
+    }
+    a{
+        color: #334F70;
+    }
+    .button {
+      border-radius: 4px;
+      background-color: #F8B195;
+      border: none;
+      color: #FFFFFF;
+      text-align: center;
+      font-size: 20px;
+      padding: 20px;
+      width: 200px;
+      transition: all 0.5s;
+      cursor: pointer;
+      margin: 5px;
+      margin-top: 5px;
+      margin-left: 320px;
+    }
+    
+    .button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    
+    .button span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    
+    .button:hover span {
+      padding-right: 25px;
+    }
+    
+    .button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+
+    #ortasag ul li{
+      list-style-type: none;
+      font-size: 18px;
+      margin-left: 300px;
+    }
+    p{
+      margin-left: 600px;
+      margin-top: -100px;
+    }
+
+    #otel2{
+      width: 880px;
+      height: 250px;
+      border: 1px rgb(180, 180, 180) solid;
+      margin-left: 25px;
+      margin-top: 20px;
+      margin-bottom: 15px;
+      
+  }
+  #otel2:hover{
+      box-shadow: 0 0 6px 2px rgb(228, 228, 228);
+  }
+  #otel2 h2{
+      margin-left: 320px;
+      margin-top: -250px;
+      
+  }
+  #otel3{
+    width: 880px;
+    height: 250px;
+    border: 1px rgb(180, 180, 180) solid;
+    margin-left: 25px;
+    margin-bottom: 15px;
+    
+}
+#otel3:hover{
+    box-shadow: 0 0 6px 2px rgb(228, 228, 228);
+}
+#otel3 h2{
+    margin-left: 320px;
+    margin-top: -250px;
+    
+}
+#otel4{
+  width: 880px;
+  height: 250px;
+  border: 1px rgb(180, 180, 180) solid;
+  margin-left: 25px;
+  margin-bottom: 15px;
+  
+}
+#otel4:hover{
+  box-shadow: 0 0 6px 2px rgb(228, 228, 228);
+}
+#otel4 h2{
+  margin-left: 320px;
+  margin-top: -250px;
+  
+}
+p{
+  margin-left: 330px;
+  margin-top: 20px;
+}
+#hrt1{
+  margin-left: 250px;
+  margin-top: -216px;/*otel1*/
+}
+#hrt2{
+  margin-left: 540px;
+  margin-top: -190px;
+}
+#hrt3{
+  margin-left: 540px;
+  margin-top: -215px;
+}
+#hrt4{
+  margin-left: 540px;
+  margin-top: -215px;
+}

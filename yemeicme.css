@@ -1,0 +1,386 @@
+body {
+  /* background-image: url("fotolar/cloth-569222.jpg");*/
+  background-color: #334F70;
+   margin-top: 20px;
+
+}
+#container{
+ width: auto;
+ height: auto;
+ 
+}
+#logo{
+ padding-left: 30px;
+ 
+
+}
+#header{
+ width: 1255px;
+ height: 150px;
+ margin-left: 50px;
+ margin-top: 20px;
+ background-color: #F8B195;
+ border-radius:  10px;
+}
+h1{
+ margin-left: 750px;
+ margin-bottom: 950px;
+ margin-top: -100px;
+ margin-left:auto;
+ margin-right:auto;
+ width:70%;  
+ color: #334F70;
+ font-family: 'Hammersmith One', sans-serif;
+ font-size: 40px;
+ text-align: center;
+}
+#ustmenu li{
+   overflow: hidden;
+    list-style-type: none;
+    background-color: #C06C84;
+    padding: 0px;
+    width: 300px;
+    height: 50px;
+    margin: 10px;
+    font-size: 20px;
+    font-family: calibri,arial,verdana;
+    line-height: 50px;
+    float: left;
+    border-radius:  10px;
+  }
+  
+  #ustmenu a{
+    padding-top: 5px;
+    text-decoration: none;
+    color: #f7e9e9;
+    display: block; /*a etiketinin etki alanını nesne boyutlarına eşitler*/  
+    text-align: center;
+    transition: 1s; 
+    
+  }
+  
+   #ustmenu span{
+    display: block;
+    margin-top:-60px;
+  }
+  
+  #ustmenu a:hover{
+    color: #F8B195;
+    margin-top:55px;
+    background-color: #355C7D;
+  }  
+
+  #ortasol a{
+   margin: 10px;/*boşlukların aralarıkları*/
+   margin-left: 50px;/*soldan 50cm içerde konumlandırır*/
+
+  }
+
+  #ortasol ul{
+   padding: 0;
+   margin: 0;
+   list-style-type: none;
+   width: 200px;
+   display: inline-block;
+  }
+  
+  #ortasol ul li a{  
+   width: 235px;
+   height: 5px;
+   padding: 30px;
+   display: block;
+   text-decoration: none;
+   background-color: #C06C84;
+   color: #f7e9e9;
+   font-size: 18px;
+   border-left:5px solid #334F70;
+   border-radius:  10px;
+   
+}
+
+#ortasol ul li a.active {
+   background-color: #F67280;
+   border-left:5px solid #C06C84;
+}
+#ortasol ul li a:hover:not(.active) {
+   background-color: #F67280;
+   border-left:5px solid #C06C84;
+   color: #FFF;
+}
+
+#ortasag{
+   background-color: #F67280;
+   color: #FFF;
+   display: inline-block;
+   height: auto;
+   float: right;
+   margin-top: -375px;
+   margin-left:auto;
+   margin-right: 25px;
+   width: 70%;
+   border-radius:  10px;
+ 
+  }
+  #footer{
+   width: 1268px;
+   height: 100px;
+   background-color: #FFF;
+   margin-left: 50px;
+   
+  }
+  h4{
+    size: 25px;
+    color: #334F70;
+  }
+  h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   text-align: center;
+    color: #f7e9e9;
+  }
+  
+  .container {
+    position: relative;
+    width: 40%;
+    height: 440px;
+    margin-left: 65px;
+    margin-bottom: 10px;
+    box-shadow: 0 8px 8px 0 rgba(0, 2, 0, 0.2);
+    border-radius:  8px;
+    background-color: #F8B195;
+    
+  }
+  .container:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: 300px;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #F8B195;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+  }
+  
+  .container:hover .overlay {
+    bottom: 0;
+    height: 100%;
+  }
+  
+  .text {
+    color: #C06C84;
+    font-size: 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  span{
+    color: #334F70;
+  }
+  
+  .container2 {
+    position: relative;
+    width: 40%;
+    height: 440px;
+    margin-left: 490px;
+    margin-top: -450px;
+    margin-bottom: 50px;
+    box-shadow: 0 8px 8px 0 rgba(0, 2, 0, 0.2);
+    border-radius:  8px;
+    background-color: #F8B195;
+    
+  }
+  .container2:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .image2 {
+    display: block;
+    width: 100%;
+    height: 300px;
+  }
+  
+  .overlay2 {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #F8B195;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+  }
+  
+  .container2:hover .overlay2 {
+    bottom: 0;
+    height: 100%;
+  }
+  .container3 {
+    position: relative;
+    width: 40%;
+    height: 440px;
+    margin-left: 65px;
+    margin-top: -20px;
+    margin-bottom: 50px;
+    box-shadow: 0 8px 8px 0 rgba(0, 2, 0, 0.2);
+    border-radius:  8px;
+    background-color: #F8B195;
+    
+  }
+  .container3:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .image3 {
+    display: block;
+    width: 100%;
+    height: 300px;
+  }
+  
+  .overlay3 {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #F8B195;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+  }
+  
+  .container3:hover .overlay3 {
+    bottom: 0;
+    height: 100%;
+  }
+  
+  .container4 {
+    position: relative;
+    width: 40%;
+    height: 440px;
+    margin-left: 490px;
+    margin-top: -490px;
+    margin-bottom: 50px;
+    box-shadow: 0 8px 8px 0 rgba(0, 2, 0, 0.2);
+    border-radius:  8px;
+    background-color: #F8B195;
+    
+  }
+  .container4:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .image4 {
+    display: block;
+    width: 100%;
+    height: 300px;
+  }
+  
+  .overlay4 {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #F8B195;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+  }
+  
+  .container4:hover .overlay4 {
+    bottom: 0;
+    height: 100%;
+  }
+
+  .container5 {
+    position: relative;
+    width: 40%;
+    height: 440px;
+    margin-left: 65px;
+    margin-top: -20px;
+    margin-bottom: 50px;
+    box-shadow: 0 8px 8px 0 rgba(0, 2, 0, 0.2);
+    border-radius:  8px;
+    background-color: #F8B195;
+    
+  }
+  .container5:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .image5 {
+    display: block;
+    width: 100%;
+    height: 300px;
+  }
+  
+  .overlay5 {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #F8B195;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+  }
+  
+  .container5:hover .overlay5 {
+    bottom: 0;
+    height: 100%;
+  }
+  
+  .container6 {
+    position: relative;
+    width: 40%;
+    height: 440px;
+    margin-left: 490px;
+    margin-top: -490px;
+    margin-bottom: 50px;
+    box-shadow: 0 8px 8px 0 rgba(0, 2, 0, 0.2);
+    border-radius:  8px;
+    background-color: #F8B195;
+    
+  }
+  .container6:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .image6 {
+    display: block;
+    width: 100%;
+    height: 300px;
+  }
+  
+  .overlay6 {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #F8B195;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+  }
+  
+  .container6:hover .overlay6 {
+    bottom: 0;
+    height: 100%;
+  }
